@@ -7,8 +7,9 @@
   "dependencies": {
     "@prisma/extension-accelerate": "^1.2.1",
     "hono": "^4.6.11",
-    "prisma": "^5.22.0",
-    "zod": "^3.23.8"
+    "medium--validations": "^1.0.0",
+    "medium-validations": "^1.0.0",
+    "prisma": "^5.22.0"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20241112.0",
