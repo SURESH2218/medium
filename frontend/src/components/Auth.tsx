@@ -19,10 +19,10 @@ const Auth = ({ type }: { type: "signup" | "signin" }) => {
         postInputs
       );
       const jwt = response.data;
-      localStorage.setItem("token", jwt);
+      localStorage.setItem("token", JSON.stringify(jwt.jwt));
       navigate("/blogs");
     } catch (error) {
-      console.error(error);
+      alert("inputs are invalid");
     }
   }
 
